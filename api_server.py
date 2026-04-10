@@ -183,12 +183,15 @@ def server_error(error):
 load_model()
 
 
+import os
+
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+
     print("=" * 60)
     print("OCT IMAGE CLASSIFIER - Flask API SERVER")
     print("=" * 60)
-    print("\nStarting Flask server...")
-    print("API: http://localhost:5000")
-    print("Frontend: http://localhost:3000")
+    print(f"\nStarting Flask server on port {port}...")
     print("\nReady to receive predictions!\n")
-    app.run(debug=True, port=5000)
+
+    app.run(host="0.0.0.0", port=port, debug=False)
