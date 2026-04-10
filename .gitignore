@@ -22,11 +22,7 @@ ENV/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# PyTorch / model artifacts
-*.pth
-*.pt
-*.ckpt
-model_metadata.json
+
 
 
 

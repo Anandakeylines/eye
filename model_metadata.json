@@ -1,0 +1,39 @@
+{
+    "model": "EfficientNet-B0",
+    "task_type": "multi_label",
+    "num_classes": 8,
+    "classes": [
+        "OCT CME",
+        "OCT DLS",
+        "OCT Hge PED",
+        "OCT Multiple PED",
+        "OCT Notched PED",
+        "OCT SRF",
+        "OCT Serous PED",
+        "OCT Sharp Peaked PED"
+    ],
+    "prediction_threshold": 0.35,
+    "metrics": {
+        "micro_f1": 0.48756218905472637,
+        "macro_f1": 0.46040311699794456,
+        "hamming_loss": 0.6776315789473685
+    },
+    "created": "2026-04-10T11:03:17.197346",
+    "config": {
+        "data_paths": [
+            "D:\\Krishnendu PCV-20260320T055228Z-3-001\\Krishnendu PCV"
+        ],
+        "batch_size": 16,
+        "epochs": 25,
+        "learning_rate": 0.0005,
+        "weight_decay": 0.0001,
+        "model_name": "EfficientNet-B0",
+        "device": "cpu",
+        "image_size": 224,
+        "train_split": 0.7,
+        "val_split": 0.15,
+        "test_split": 0.15,
+        "random_seed": 42,
+        "prediction_threshold": 0.35
+    }
+}
