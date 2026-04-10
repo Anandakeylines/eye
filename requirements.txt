@@ -1,0 +1,16 @@
+# flask==3.0.3
+flask-cors==4.0.1
+
+# Lightweight CPU version of PyTorch
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy==1.26.4
+scikit-learn==1.4.2
+
+matplotlib==3.8.4
+seaborn==0.13.2
+Pillow==10.3.0
+
+gunicorn==21.2.0

@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.python-version
+venv/
+venv/*
+ENV/
+.env
+.env.*
+.pytest_cache/
+.ipynb_checkpoints/
+
+# PyTorch / model artifacts
+*.pth
+*.pt
+*.ckpt
+model_metadata.json
+
+
+
+# Logs
+*.log
+logs/
+
+# Flask / API
+instance/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# React app
+react-app/
+react-app/node_modules/
+react-app/build/
+react-app/.env
+react-app/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.bak
